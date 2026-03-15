@@ -1,0 +1,10 @@
+function swap(arr, index1, index2) {
+    let temp = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = temp;
+
+    return arr;
+}
+
+console.log(swap([7, 99, -3, 42, 108], 1, 3));
+
